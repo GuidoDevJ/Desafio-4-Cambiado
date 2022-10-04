@@ -52,6 +52,13 @@ const datos = async () => {
 datos()
 
 navBar(document.querySelector(".head"))
+let $headH2 = document.querySelector("header h2")
+
+$headH2.innerHTML = `
+    <span>Bienvenidos</span>
+`
+$headH2.querySelector("span").style.width = `11ch`
+$headH2.querySelector("span").style.animation = `typing 2s steps(11)`
 form(document.querySelector(".main__form"))
 footer(document.querySelector(".foot"))
 

@@ -22,7 +22,7 @@ function navBar(e) {
   </div>
   <header class="header">
   <div class="header__text">
-  <h2></h2>
+  <h2><span></span></h2>
   </div>
   </header>
   <div/>

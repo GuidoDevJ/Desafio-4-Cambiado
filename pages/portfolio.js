@@ -15,6 +15,8 @@ let $headH2 = document.querySelector("header h2")
 $headH2.innerHTML = `
     <span>Mis Trabajos</span>
 `
+$headH2.querySelector("span").style.width = `12ch`
+$headH2.querySelector("span").style.animation = `typing 2s steps(12)`
 const datos = async () => {
 
     const $template = d.querySelector(".template__services").content

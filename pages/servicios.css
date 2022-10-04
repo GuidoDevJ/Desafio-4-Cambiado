@@ -15,12 +15,7 @@ body{
 .nav{
     background-color: #222425;
 }
-h2 span {
-    width: 11ch;
-    font-size: 48px;
-    animation: typing 2s steps(12), blink .5s infinite 2s step-end alternate;
 
-}
 .works{
     width: 100%;
     height: auto;

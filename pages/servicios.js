@@ -11,6 +11,8 @@ let $headH2 = document.querySelector("header h2")
 $headH2.innerHTML = `
     <span>Mis Servicios</span>
 `
+$headH2.querySelector("span").style.width = `13ch`
+$headH2.querySelector("span").style.animation = `typing 2s steps(13)`
 
 // Fetch de la Api de ContentFul
 const datos = async () => {
