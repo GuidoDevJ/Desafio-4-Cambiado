@@ -9,7 +9,7 @@ function navBar(e) {
   <ul class="nav___links">
   <li><a href="portfolio.html">Portfolio</a></li>
   <li><a href="servicios.html">Servicios</a></li>
-  <li><a href="pages/contact.html">Contact</a></li>
+  <li><a href="./contact.html">Contact</a></li>
   </ul>
   </nav>
   <div class="screen__links">
