@@ -3,13 +3,13 @@ function navBar(e) {
   $div.innerHTML = `
   <div class="contenedor">
   <nav class="nav">
-  <a class="header__logo__link" href="../index.html"><span class="nav__logo">GUIDO</span></a>
+  <a class="header__logo__link" href="index.html"><span class="nav__logo">GUIDO</span></a>
   
   <i class="fa-solid fa-bars btn"></i>
   <ul class="nav___links">
   <li><a href="portfolio.html">Portfolio</a></li>
   <li><a href="servicios.html">Servicios</a></li>
-  <li><a href="./contact.html">Contact</a></li>
+  <li><a href="contact.html">Contact</a></li>
   </ul>
   </nav>
   <div class="screen__links">
